@@ -42,7 +42,7 @@ TagField(tags: $tags, placeholder: "Add Tags..")
 TagField(tags: $tags, placeholder: "Add Tags..", prefix: "#")
 TagField(tags: $tags, placeholder: "Add Tags..", prefix: "#", color: color, style: .Modern, lowercase: bool)
 ```
-* `tags` : `Binding<String>` that stores tags data
+* `tags` : `Binding<[String]>` that stores tags data
 * `placeholder`: placeholder text before add tags
 * `prefix` : prefix attached to each tags
 * `color` : accentColor
